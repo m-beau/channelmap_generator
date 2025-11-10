@@ -33,7 +33,7 @@ PixelMap is a browser-based application for creating custom channelmaps for Neur
 
 Neuropixels probes have revolutionised systems neuroscience by enabling simultaneous recordings from hundreds of neurons across multiple brain regions at any depth [@jun2017; @beau2021; @steinmetz2021; @bondy2024; @ye2025; @beau2025]. However, configuring these probes presents challenges. Limited by the number of integrated analogue-to-digital converters (ADCs), Neuropixels probes contain 960–5120 electrodes but can only record from 384–1536 channels simultaneously (Table 1). Users must therefore select a subset of electrodes to activate for each recording, a "channelmap". Researchers often need to create custom channelmaps to target specific brain regions, and sometimes must adjust them rapidly based on feedback from ongoing recordings. Because the electrode-to-ADC wiring follows complex, probe version-dependent patterns, manual channelmap design is error-prone and time-consuming.
 
-[SpikeGLX](https://billkarsh.github.io/SpikeGLX) is the most common acquisition software for Neuropixels recordings. While SpikeGLX provides tools to edit channelmaps using the `.imro` file format, it requires a desktop app, comes with limited preset channelmaps, and does not easily allow selection of fully arbitrary electrode geometries.
+[SpikeGLX](https://billkarsh.github.io/SpikeGLX) is the most common acquisition software for Neuropixels recordings and uses the `.imro` file format to encode channelmaps. While SpikeGLX provides tools to edit channelmaps, it requires a desktop app, comes with limited preset channelmaps, and does not easily allow selection of fully arbitrary electrode geometries.
 
 PixelMap addresses these needs by:
 
