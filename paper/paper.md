@@ -50,11 +50,11 @@ PixelMap addresses these needs by:
 
 **Table 1**: Number of physical and simultaneously addressable electrodes across Neuropixels probe versions.
 
-# Implementation
+# Software design
 
 PixelMap is implemented in Python using HoloViz Panel [@yang2022] for the web interface, providing an interactive and responsive user experience. The software architecture consists of three main components.
 
-First, the **wiring maps** at `./wiring_maps/*.csv` are custom CSV files describing the electrode-to-ADC mappings for each supported probe type. They were built from files provided by IMEC (Neuropixels manufacturer).
+First, the **wiring maps** at `./wiring_maps/*.csv` are hand-built CSV files describing the electrode-to-ADC mappings for each supported probe type. They were adapted from files provided by IMEC (Neuropixels manufacturer - downloadable [here](https://www.neuropixels.org/support)).
 
 Second, the **core logic** at `./backend.py` implements the constraint-checking algorithms that validate electrode selections against probe-specific wiring maps. This handles the complex mapping between physical electrodes and ADC channels for different probe types (Neuropixels 1.0, 2.0 single-shank, and 2.0 four-shank so far). Hash tables (Python dictionaries) are used to query incompatible electrode pairs with O(1) complexity and improve performance.
 
@@ -77,6 +77,15 @@ PixelMap can be used through:
 For more details, see the project repository at [https://github.com/m-beau/channelmap_generator](https://github.com/m-beau/channelmap_generator).
 
 The software includes an automated test suite with 41 tests covering hardware constraint validation, all preset configurations, IMRO file generation for all supported probe types, and end-to-end workflows. Tests run automatically via GitHub Actions continuous integration on every code change, ensuring software reliability. See the repository's `tests/` directory for details.
+
+# Research impact statement
+
+PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. As users of Neuropixels probes since 2019 [@kostadinov2019; @beau2021; @steinmetz2021; @bondy2024; @beau2025], we identified the need for an alternative to existing solutions for channelmap generation (see Statement of Need). The tool has been adopted by experimentalists across multiple institutions for planning recordings, as evidenced by community engagement on the project repository (16 stars as of January 2025).
+
+# AI usage disclosure
+
+**AI-assisted technologies used:** Claude (Anthropic) via Claude Code.
+AI assistance was used for (1) optimization suggestions and documentation improvements (docstrings, code comments) in `backend.py`, (2) initial scaffolding of the HoloViz Panel GUI architecture in `gui/gui.py`, (3) manuscript grammatical and syntactical review. AI was not used for project conceptualization, core algorithm design, electrode wiring map construction – these built on the authors’ experience writing software for Neuropixels [@beau2021]. App hosting infrastructure was designed independently of AI assistance.
 
 # Author Contributions
 
