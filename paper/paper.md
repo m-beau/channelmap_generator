@@ -80,7 +80,7 @@ The software includes an automated test suite with 41 tests covering hardware co
 
 # Research impact statement
 
-PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. As users of Neuropixels probes since 2019 [@kostadinov2019; @beau2021; @steinmetz2021; @bondy2024; @beau2025], we identified the need for an alternative to existing solutions for channelmap generation (see Statement of Need). The tool has been adopted by experimentalists across multiple institutions for planning recordings, as evidenced by community engagement on the project repository (16 stars as of January 2025).
+PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. As users of Neuropixels probes since 2019 [@kostadinov2019; @beau2021; @steinmetz2021; @bondy2024; @beau2025], we identified the need for an alternative to existing solutions for channelmap generation (see Statement of Need). The tool has been adopted by experimentalists across multiple institutions for planning recordings, as evidenced by community engagement on the project repository (22 stars as of January 2025).
 
 # AI usage disclosure
 
