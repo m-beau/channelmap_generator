@@ -88,7 +88,7 @@ Evidence of adoption includes community engagement on the project repository (22
 
 # AI usage Disclosure
 
-**AI-assisted technologies used:** Claude (Anthropic) via Claude Code.
+**AI-assisted technologies used:** Claude Sonnet 4.1, Sonnet 4.5, and Opus 4.5 (Anthropic).
 AI assistance was used for (1) optimization suggestions and documentation improvements (docstrings, code comments) in `backend.py`, (2) initial scaffolding of the HoloViz Panel GUI architecture in `gui/gui.py`, (3) manuscript grammatical and syntactical review. AI was not used for project conceptualization, core algorithm design, electrode wiring map construction – these built on the authors’ experience writing software for Neuropixels [@beau2021]. App hosting infrastructure was designed independently of AI assistance.
 
 # Author Contributions
