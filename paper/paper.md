@@ -50,7 +50,7 @@ PixelMap addresses these needs by:
 
 **Table 1**: Number of physical and simultaneously addressable electrodes across Neuropixels probe versions.
 
-# Software design
+# Software Design
 
 PixelMap is implemented in Python using HoloViz Panel [@yang2022] for the web interface, providing an interactive and responsive user experience. The software architecture consists of three main components.
 
@@ -78,11 +78,11 @@ For more details, see the project repository at [https://github.com/m-beau/chann
 
 The software includes an automated test suite with 41 tests covering hardware constraint validation, all preset configurations, IMRO file generation for all supported probe types, and end-to-end workflows. Tests run automatically via GitHub Actions continuous integration on every code change, ensuring software reliability. See the repository's `tests/` directory for details.
 
-# Research impact statement
+# Research Impact Statement
 
 PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. As users of Neuropixels probes since 2019 [@kostadinov2019; @beau2021; @steinmetz2021; @bondy2024; @beau2025], we identified the need for an alternative to existing solutions for channelmap generation (see Statement of Need). The tool has been adopted by experimentalists across multiple institutions for planning recordings, as evidenced by community engagement on the project repository (22 stars as of January 2025).
 
-# AI usage disclosure
+# AI usage Disclosure
 
 **AI-assisted technologies used:** Claude (Anthropic) via Claude Code.
 AI assistance was used for (1) optimization suggestions and documentation improvements (docstrings, code comments) in `backend.py`, (2) initial scaffolding of the HoloViz Panel GUI architecture in `gui/gui.py`, (3) manuscript grammatical and syntactical review. AI was not used for project conceptualization, core algorithm design, electrode wiring map construction – these built on the authors’ experience writing software for Neuropixels [@beau2021]. App hosting infrastructure was designed independently of AI assistance.
