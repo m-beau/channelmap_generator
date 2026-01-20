@@ -80,9 +80,9 @@ The software includes an automated test suite with 41 tests covering hardware co
 
 # Research Impact Statement
 
-PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. The Neuropixels platform has become the dominant technology for large-scale electrophysiology, with over 2,000 probes distributed globally since 2017 and exponential growth in publications using the technology. Yet no existing tool provided installation-free channelmap design with support for arbitrary electrode geometries.
+PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. Neuropixels have become the dominant technology for large-scale electrophysiology, with exponential growth in publications using the technology ([PubMed](https://esperr.github.io/pubmed-by-year/?q1=Neuropixels)). Yet no existing tool provided installation-free channelmap design with support for arbitrary electrode geometries (see **Statement of Need**).
 
-The software demonstrates community-readiness through comprehensive documentation and a permissive open-source license. The tool is immediately accessible via web application, Python package, Docker container, or programmatic API. The tool builds on the authors' established track record using Neuropixels probes in their research [@kostadinov2019; @steinmetz2021; @bondy2024; @beau2025] and developing Neuropixels software [@beau2021].
+PixelMap demonstrates community-readiness through comprehensive documentation and a permissive open-source license (GPL3). The tool is immediately accessible via web application ([https://neuropixels-channelmap-generator.pni.princeton.edu](https://neuropixels-channelmap-generator.pni.princeton.edu/app)), Python package, Docker container, or programmatic API. The tool builds on the authors' established track record using Neuropixels probes in their research [@kostadinov2019; @steinmetz2021; @bondy2024; @beau2025] and developing Neuropixels software [@beau2021].
 
 Evidence of adoption includes community engagement on the project repository (22 GitHub stars as of January 2025) and deployment at Princeton Neuroscience Institute's public server.
 
