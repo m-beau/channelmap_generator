@@ -86,7 +86,7 @@ PixelMap demonstrates community-readiness through comprehensive documentation an
 
 Evidence of adoption includes community engagement on the project repository (22 GitHub stars as of January 2025) and deployment at Princeton Neuroscience Institute's public server.
 
-# AI usage Disclosure
+# AI Usage Disclosure
 
 **AI-assisted technologies used:** Claude Sonnet 4.1, Sonnet 4.5, and Opus 4.5 (Anthropic).
 AI assistance was used for (1) optimization suggestions and documentation improvements (docstrings, code comments) in `backend.py`, (2) initial scaffolding of the HoloViz Panel GUI architecture in `gui/gui.py`, (3) manuscript grammatical and syntactical review. AI was not used for project conceptualization, core algorithm design, electrode wiring map construction. App hosting infrastructure was designed independently of AI assistance.
