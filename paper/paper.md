@@ -37,7 +37,7 @@ Neuropixels probes have revolutionised systems neuroscience by enabling simultan
 
 PixelMap addresses these needs by:
 
-1. **Being available on any machine installation-free**: The tool is available both as a web application at [https://pixelmap.pni.princeton.edu](https://pixelmap.pni.princeton.edu) and as a Python package.
+1. **Being available on any machine installation-free**: The tool is available both as a browser-based web application at [https://pixelmap.pni.princeton.edu](https://pixelmap.pni.princeton.edu), as a Docker image, and a Python package.
 2. **Visualising wiring constraints interactively**: When users select electrodes, the interface immediately shows which other electrodes become unavailable (marked in black) due to shared ADC lines, preventing invalid configurations.
 3. **Supporting arbitrary electrode geometries**: Users can select electrodes by choosing from common preset geometries, entering electrode ranges as text for reproducibility, directly clicking or dragging on the probe visualization, or loading pre-existing `.imro` files. These four selection methods are fully intercompatible and can be combined. For instance, a SpikeGLX `.imro` file can be loaded as a starting point, and selection boxes used to further refine the channelmap geometry.
 
@@ -82,7 +82,7 @@ The software includes an automated test suite with 41 tests covering hardware co
 
 PixelMap addresses a practical bottleneck in Neuropixels experimental workflows. Neuropixels have become the dominant technology for large-scale electrophysiology, with exponential growth in publications using the technology ([PubMed](https://esperr.github.io/pubmed-by-year/?q1=Neuropixels)). Yet no existing tool provided installation-free channelmap design with support for arbitrary electrode geometries (see **Statement of Need**).
 
-PixelMap demonstrates community-readiness through comprehensive documentation and a permissive open-source license (GPL3). The tool is immediately accessible via web application ([https://neuropixels-channelmap-generator.pni.princeton.edu](https://neuropixels-channelmap-generator.pni.princeton.edu/app)), Python package, Docker container, or programmatic API. The tool builds on the authors' established track record using Neuropixels probes in their research [@kostadinov2019; @steinmetz2021; @bondy2024; @beau2025] and developing Neuropixels software [@beau2021].
+PixelMap demonstrates community-readiness through comprehensive documentation and a permissive open-source license (GPL3). The tool is immediately accessible via web application ([https://pixelmap.pni.princeton.edu](https://pixelmap.pni.princeton.edu)), Python package, Docker container, or programmatic API. The tool builds on the authors' established track record using Neuropixels probes in their research [@kostadinov2019; @steinmetz2021; @bondy2024; @beau2025] and developing Neuropixels software [@beau2021].
 
 Evidence of adoption includes community engagement on the project repository (24 GitHub stars as of January 2025) and deployment at Princeton Neuroscience Institute's public server.
 
