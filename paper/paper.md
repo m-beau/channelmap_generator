@@ -84,7 +84,7 @@ PixelMap addresses a practical bottleneck in Neuropixels experimental workflows.
 
 PixelMap demonstrates community-readiness through comprehensive documentation and a permissive open-source license (GPL3). The tool is immediately accessible via web application ([https://neuropixels-channelmap-generator.pni.princeton.edu](https://neuropixels-channelmap-generator.pni.princeton.edu/app)), Python package, Docker container, or programmatic API. The tool builds on the authors' established track record using Neuropixels probes in their research [@kostadinov2019; @steinmetz2021; @bondy2024; @beau2025] and developing Neuropixels software [@beau2021].
 
-Evidence of adoption includes community engagement on the project repository (22 GitHub stars as of January 2025) and deployment at Princeton Neuroscience Institute's public server.
+Evidence of adoption includes community engagement on the project repository (24 GitHub stars as of January 2025) and deployment at Princeton Neuroscience Institute's public server.
 
 # AI Usage Disclosure
 
